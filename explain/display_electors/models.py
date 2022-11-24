@@ -15,6 +15,9 @@ class Territories(models.Model):
     impacters_count = models.IntegerField()
     websites_count = models.IntegerField()
     sources_count = models.IntegerField()
+    
+    
+
 
 class TerritoriesParents(models.Model):
     child_id = models.IntegerField()

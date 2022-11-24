@@ -13,4 +13,10 @@ from .models import Territories , TerritoriesParents
 
 
 def index(request):
-    return render(request, 'display_electors/index.html' )
+    territories = Territories.objects.all()
+    return render(request, 'display_electors/index.html'  , {'territories' : territories })
+
+
+
+
+ 

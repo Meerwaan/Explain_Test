@@ -41,3 +41,7 @@ Disclaimer:  J'ai choisi Django comme Framework web basé sur Pyhton car il est 
  
 
 ### Création d'une page qui affiche les données 
+
+- Mise en place du template 
+- afficher les données de la class Territories sur le template
+
