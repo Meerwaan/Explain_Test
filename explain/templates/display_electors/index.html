@@ -18,21 +18,22 @@
 <body>
     <div>
         {% for territories in territories %}
-        <ul class="list-group list-group-horizontal-xl">
-            
-            <li class="list-group-item">id = {{territories.id}}</li>
-            <li class="list-group-item">{{territories.code}}</li>
-            <li class="list-group-item">{{territories.name}}</li>
-            <li class="list-group-item">{{territories.kind}}</li>
-            
-            
-          </ul>
-          {% endfor %}
+        <ul class="col-5 list-group list-group-horizontal-xl">
+            <div class="container mb-5  ">
+
+                <li class="list-group-item border-top border-3">id = {{territories.id}}</li>
+                <li class="list-group-item">Code = {{territories.code}}</li>
+                <li class="list-group-item">Nom = {{territories.name}}</li>
+                <li class="list-group-item border-bottom border-3">Type = {{territories.kind}}</li>
+            </div>
+
+        </ul>
+        {% endfor %}
     </div>
 
 
 
-   <!-- <ul>
+    <!-- <ul>
         {% for territories in territories %}
         <div>
             <p>{{territories.id}} </p>
