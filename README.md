@@ -35,6 +35,9 @@ Disclaimer:  J'ai choisi Django comme Framework web basé sur Pyhton car il est 
     - .import <file.csv> <django_db_file>
 
 
+### Création du compte Admin
 
+- Le compte Admin pourra gerer les données (supprimer, ajout ...)
+ 
 
 ### Création d'une page qui affiche les données 
