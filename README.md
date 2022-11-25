@@ -34,14 +34,19 @@ Disclaimer:  J'ai choisi Django comme Framework web basé sur Pyhton car il est 
     - .mode csv
     - .import <file.csv> <django_db_file>
 
-
 ### Création du compte Admin
 
 - Le compte Admin pourra gerer les données (supprimer, ajout ...)
  
-
 ### Création d'une page qui affiche les données 
 
 - Mise en place du template 
 - afficher les données de la class Territories sur le template
+
+### Ajout des fonction pour filtrer les données 
+
+- Filtrage par nom 
+- Filtrage par id 
+- Filtrage par type 
+- Filtrage par code
 
